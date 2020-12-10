@@ -11,7 +11,7 @@ const Recipe = ({ title, calories, image, ingredients }) => {
                     <li>{ingredient.text}</li>
                 ))}
             </ol>
-            <img className={style.image} src={image} alt="image" />
+            <img className={style.image} src={image} alt="" />
         </div>
     );
 };
