@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
 import Recipe from "./recipe";
 
 const App = () => {
